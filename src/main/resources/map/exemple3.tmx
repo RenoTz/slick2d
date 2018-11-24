@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="tuiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="water_grass" tilewidth="32" tileheight="32">
+  <image source="tuiles/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="37" name="bridges" tilewidth="32" tileheight="32">
+  <image source="tuiles/bridges.png" width="192" height="224"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZzWoCMRAA4Ny9qLT0/+8VevLU93+srpRAiDPZuBS8fB8Mypr1MJOZyLorpexuEMTaHB3KZd6O3Wu0JrrWx76ox4yZ3LX1GK05DD4/dJ8Ty/ZzltuZXjCvthvVYzS/Zmo1qh2xNqe1Bk9LPC/xUub6p42Ze9UjF+X4dYm3JR7KX25n8rvr7n0v47oRi3J2zundEvflL7dtfrP51NfyvYzrRizb4+feeCyX9djaH+fXtpbE+vOjzWkb7eyq8R1cqzXUH9uM9vg5+rnVxilYU99H/aEe66LfsW09+rkV1aNdU987z7eJcvWxxGeJ+6LthVNy3bzaru7feoZkfRL1yym53p/n++J5yazRHq59ksXP4LOvcjmv/L5a19cgO3//O4hl+eqfU2URPedVj+1m8nqcWHco888g1SOXzaut+34UzvN10f6t+/xY4lxeM7P2yb3ErtnfWW6za/7/uN7anO//P19bH62JvoPYf58RswEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHArv5nFxddAnAAA
+  </data>
+ </layer>
+</map>

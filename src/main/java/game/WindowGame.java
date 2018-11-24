@@ -18,6 +18,7 @@ public class WindowGame extends BasicGame {
 
 	private float xPos = 100;
 	private float yPos = 100;
+
 	private int direction = 0;
 	private boolean moving = false;
 	private final Animation[] animations = new Animation[8];

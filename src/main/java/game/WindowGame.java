@@ -56,7 +56,7 @@ public class WindowGame extends BasicGame {
 	@Override
 	public void render(GameContainer container, Graphics g) throws SlickException {
 
-		// suivi de la caméra
+		// suivi de la camera
 		g.translate(container.getWidth() / 2 - this.xPos, container.getHeight() / 2 - this.yPos);
 		// affichage de la carte
 		this.map.render(0, 0);
@@ -93,7 +93,7 @@ public class WindowGame extends BasicGame {
 	@Override
 	public void keyPressed(int key, char c) {
 
-		// touches de déplacement du personnage
+		// touches de deplacement du personnage
 		switch (key) {
 		case Input.KEY_Z:
 			this.direction = 0;
